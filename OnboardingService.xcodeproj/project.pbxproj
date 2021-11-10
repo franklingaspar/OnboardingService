@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79F3306D35BC57F2E52D862E /* Pods_OnboardingService_OnboardingServiceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6CB9AE73F998AB21FAF5A69 /* Pods_OnboardingService_OnboardingServiceTests.framework */; };
+		7C8D243CF7B960DCF350F21D /* Pods_OnboardingService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35A550ABB04EDBD2D0F4C96 /* Pods_OnboardingService.framework */; };
 		92EB3AB3273C2B8B00DAD73A /* OnboardingService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92EB3AA9273C2B8B00DAD73A /* OnboardingService.framework */; };
 		92EB3AB8273C2B8B00DAD73A /* OnboardingServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB3AB7273C2B8B00DAD73A /* OnboardingServiceTests.swift */; };
 		92EB3ABA273C2B8B00DAD73A /* OnboardingService.h in Headers */ = {isa = PBXBuildFile; fileRef = 92EB3AAC273C2B8B00DAD73A /* OnboardingService.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,12 +25,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		244D43492B3706F1767E9770 /* Pods-OnboardingService-OnboardingServiceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingService-OnboardingServiceTests.release.xcconfig"; path = "Target Support Files/Pods-OnboardingService-OnboardingServiceTests/Pods-OnboardingService-OnboardingServiceTests.release.xcconfig"; sourceTree = "<group>"; };
+		476C326A4E974D7C1E26B9B4 /* Pods-OnboardingService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingService.release.xcconfig"; path = "Target Support Files/Pods-OnboardingService/Pods-OnboardingService.release.xcconfig"; sourceTree = "<group>"; };
+		56504F937D56CAC118B67906 /* Pods-OnboardingService-OnboardingServiceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingService-OnboardingServiceTests.debug.xcconfig"; path = "Target Support Files/Pods-OnboardingService-OnboardingServiceTests/Pods-OnboardingService-OnboardingServiceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B147D9563C8DF0D057FF155 /* Pods-OnboardingService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingService.debug.xcconfig"; path = "Target Support Files/Pods-OnboardingService/Pods-OnboardingService.debug.xcconfig"; sourceTree = "<group>"; };
 		92EB3AA9273C2B8B00DAD73A /* OnboardingService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OnboardingService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92EB3AAC273C2B8B00DAD73A /* OnboardingService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnboardingService.h; sourceTree = "<group>"; };
 		92EB3AAD273C2B8B00DAD73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92EB3AB2273C2B8B00DAD73A /* OnboardingServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnboardingServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92EB3AB7273C2B8B00DAD73A /* OnboardingServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingServiceTests.swift; sourceTree = "<group>"; };
 		92EB3AB9273C2B8B00DAD73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C35A550ABB04EDBD2D0F4C96 /* Pods_OnboardingService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnboardingService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6CB9AE73F998AB21FAF5A69 /* Pods_OnboardingService_OnboardingServiceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnboardingService_OnboardingServiceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C8D243CF7B960DCF350F21D /* Pods_OnboardingService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +53,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				92EB3AB3273C2B8B00DAD73A /* OnboardingService.framework in Frameworks */,
+				79F3306D35BC57F2E52D862E /* Pods_OnboardingService_OnboardingServiceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DDE70437E3246E0B3447CDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B147D9563C8DF0D057FF155 /* Pods-OnboardingService.debug.xcconfig */,
+				476C326A4E974D7C1E26B9B4 /* Pods-OnboardingService.release.xcconfig */,
+				56504F937D56CAC118B67906 /* Pods-OnboardingService-OnboardingServiceTests.debug.xcconfig */,
+				244D43492B3706F1767E9770 /* Pods-OnboardingService-OnboardingServiceTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		296171DA437ED80487D48D57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C35A550ABB04EDBD2D0F4C96 /* Pods_OnboardingService.framework */,
+				C6CB9AE73F998AB21FAF5A69 /* Pods_OnboardingService_OnboardingServiceTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		92EB3A9F273C2B8B00DAD73A = {
 			isa = PBXGroup;
 			children = (
 				92EB3AAB273C2B8B00DAD73A /* OnboardingService */,
 				92EB3AB6273C2B8B00DAD73A /* OnboardingServiceTests */,
 				92EB3AAA273C2B8B00DAD73A /* Products */,
+				1DDE70437E3246E0B3447CDE /* Pods */,
+				296171DA437ED80487D48D57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +137,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92EB3ABD273C2B8B00DAD73A /* Build configuration list for PBXNativeTarget "OnboardingService" */;
 			buildPhases = (
+				B59319C746C0320364625989 /* [CP] Check Pods Manifest.lock */,
 				92EB3AA4273C2B8B00DAD73A /* Headers */,
 				92EB3AA5273C2B8B00DAD73A /* Sources */,
 				92EB3AA6273C2B8B00DAD73A /* Frameworks */,
@@ -122,6 +156,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92EB3AC0273C2B8B00DAD73A /* Build configuration list for PBXNativeTarget "OnboardingServiceTests" */;
 			buildPhases = (
+				06D79236577E4DDA8553EC70 /* [CP] Check Pods Manifest.lock */,
 				92EB3AAE273C2B8B00DAD73A /* Sources */,
 				92EB3AAF273C2B8B00DAD73A /* Frameworks */,
 				92EB3AB0273C2B8B00DAD73A /* Resources */,
@@ -188,6 +223,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06D79236577E4DDA8553EC70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnboardingService-OnboardingServiceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B59319C746C0320364625989 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnboardingService-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		92EB3AA5273C2B8B00DAD73A /* Sources */ = {
@@ -340,6 +422,7 @@
 		};
 		92EB3ABE273C2B8B00DAD73A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B147D9563C8DF0D057FF155 /* Pods-OnboardingService.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -364,6 +447,7 @@
 		};
 		92EB3ABF273C2B8B00DAD73A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 476C326A4E974D7C1E26B9B4 /* Pods-OnboardingService.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -388,6 +472,7 @@
 		};
 		92EB3AC1273C2B8B00DAD73A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56504F937D56CAC118B67906 /* Pods-OnboardingService-OnboardingServiceTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4J2SZLLXAH;
@@ -406,6 +491,7 @@
 		};
 		92EB3AC2273C2B8B00DAD73A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 244D43492B3706F1767E9770 /* Pods-OnboardingService-OnboardingServiceTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4J2SZLLXAH;

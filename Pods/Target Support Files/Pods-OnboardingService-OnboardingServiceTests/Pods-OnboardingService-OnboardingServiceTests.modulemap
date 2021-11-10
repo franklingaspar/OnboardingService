@@ -1,0 +1,6 @@
+framework module Pods_OnboardingService_OnboardingServiceTests {
+  umbrella header "Pods-OnboardingService-OnboardingServiceTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
