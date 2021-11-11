@@ -12,6 +12,7 @@
 		92EB3AB3273C2B8B00DAD73A /* OnboardingService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92EB3AA9273C2B8B00DAD73A /* OnboardingService.framework */; };
 		92EB3AB8273C2B8B00DAD73A /* OnboardingServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB3AB7273C2B8B00DAD73A /* OnboardingServiceTests.swift */; };
 		92EB3ABA273C2B8B00DAD73A /* OnboardingService.h in Headers */ = {isa = PBXBuildFile; fileRef = 92EB3AAC273C2B8B00DAD73A /* OnboardingService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92EB3AEF273D57EF00DAD73A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB3AEE273D57EF00DAD73A /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		92EB3AB2273C2B8B00DAD73A /* OnboardingServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnboardingServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92EB3AB7273C2B8B00DAD73A /* OnboardingServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingServiceTests.swift; sourceTree = "<group>"; };
 		92EB3AB9273C2B8B00DAD73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92EB3AEE273D57EF00DAD73A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		C35A550ABB04EDBD2D0F4C96 /* Pods_OnboardingService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnboardingService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6CB9AE73F998AB21FAF5A69 /* Pods_OnboardingService_OnboardingServiceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnboardingService_OnboardingServiceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -68,7 +70,6 @@
 				56504F937D56CAC118B67906 /* Pods-OnboardingService-OnboardingServiceTests.debug.xcconfig */,
 				244D43492B3706F1767E9770 /* Pods-OnboardingService-OnboardingServiceTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -104,6 +105,7 @@
 		92EB3AAB273C2B8B00DAD73A /* OnboardingService */ = {
 			isa = PBXGroup;
 			children = (
+				92EB3AED273D57DC00DAD73A /* Service */,
 				92EB3AAC273C2B8B00DAD73A /* OnboardingService.h */,
 				92EB3AAD273C2B8B00DAD73A /* Info.plist */,
 			);
@@ -117,6 +119,14 @@
 				92EB3AB9273C2B8B00DAD73A /* Info.plist */,
 			);
 			path = OnboardingServiceTests;
+			sourceTree = "<group>";
+		};
+		92EB3AED273D57DC00DAD73A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				92EB3AEE273D57EF00DAD73A /* Service.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +192,7 @@
 				TargetAttributes = {
 					92EB3AA8273C2B8B00DAD73A = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 					};
 					92EB3AB1273C2B8B00DAD73A = {
 						CreatedOnToolsVersion = 12.2;
@@ -276,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92EB3AEF273D57EF00DAD73A /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B147D9563C8DF0D057FF155 /* Pods-OnboardingService.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 4J2SZLLXAH;
@@ -440,6 +453,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourdev.OnboardingService;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,6 +463,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 476C326A4E974D7C1E26B9B4 /* Pods-OnboardingService.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 4J2SZLLXAH;
@@ -474,6 +489,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 56504F937D56CAC118B67906 /* Pods-OnboardingService-OnboardingServiceTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4J2SZLLXAH;
 				INFOPLIST_FILE = OnboardingServiceTests/Info.plist;
@@ -493,6 +509,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 244D43492B3706F1767E9770 /* Pods-OnboardingService-OnboardingServiceTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4J2SZLLXAH;
 				INFOPLIST_FILE = OnboardingServiceTests/Info.plist;

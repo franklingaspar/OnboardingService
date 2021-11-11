@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3741A219E5800A56CDEC40193502BDBF"
-               BuildableName = "Pods-OnboardingService-OnboardingServiceTests.framework"
+               BuildableName = "Pods_OnboardingService_OnboardingServiceTests.framework"
                BlueprintName = "Pods-OnboardingService-OnboardingServiceTests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
