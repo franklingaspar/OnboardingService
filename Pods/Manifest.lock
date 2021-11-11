@@ -1,3 +1,21 @@
-PODFILE CHECKSUM: b9be63b6a83ca575fc33b675dfa1bf21e5383acc
+PODS:
+  - Alamofire (5.4.4)
+  - OnboardingModels (1.0.12)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.4.4)
+  - OnboardingModels (~> 1.0.12)
+
+SPEC REPOS:
+  "git@github.com:franklingaspar/Onboarding-Pods.git":
+    - OnboardingModels
+  trunk:
+    - Alamofire
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  OnboardingModels: 9f1c2823ee5aef5b4af6cb2cdeab8005b3624f1b
+
+PODFILE CHECKSUM: 6fc8713bbaa80c0b5b770d38e082a01f84cd9304
 
 COCOAPODS: 1.10.2

@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-OnboardingService-OnboardingServiceTests/Pods-OnboardingService-OnboardingServiceTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/OnboardingModels/OnboardingModels.framework

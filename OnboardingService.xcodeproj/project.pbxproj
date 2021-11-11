@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,16 @@
 		92EB3AB8273C2B8B00DAD73A /* OnboardingServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB3AB7273C2B8B00DAD73A /* OnboardingServiceTests.swift */; };
 		92EB3ABA273C2B8B00DAD73A /* OnboardingService.h in Headers */ = {isa = PBXBuildFile; fileRef = 92EB3AAC273C2B8B00DAD73A /* OnboardingService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92EB3AEF273D57EF00DAD73A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB3AEE273D57EF00DAD73A /* Service.swift */; };
+		92EB3B1B273D7E0700DAD73A /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB3B1A273D7E0700DAD73A /* ServiceError.swift */; };
+		92EB3B21273D7E5200DAD73A /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB3B20273D7E5200DAD73A /* Connectivity.swift */; };
+		92EB3B25273D7E8500DAD73A /* QueryString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB3B24273D7E8500DAD73A /* QueryString.swift */; };
+		92EB3B29273D7EB900DAD73A /* ServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB3B28273D7EB900DAD73A /* ServiceClient.swift */; };
+		92EB3B2D273D8DD500DAD73A /* EnumConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB3B2C273D8DD500DAD73A /* EnumConstants.swift */; };
+		92EB3B32273D901D00DAD73A /* OnboardingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB3B31273D901D00DAD73A /* OnboardingDelegate.swift */; };
+		92EB3B3A273D907300DAD73A /* Service+Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB3B39273D907300DAD73A /* Service+Login.swift */; };
+		92EB3B58273D9B2400DAD73A /* Service+Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB3B57273D9B2400DAD73A /* Service+Register.swift */; };
+		92EB3B74273DA44D00DAD73A /* Service+RefreshToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB3B73273DA44D00DAD73A /* Service+RefreshToken.swift */; };
+		92EB3B7B273DA65600DAD73A /* Service+Projects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB3B7A273DA65600DAD73A /* Service+Projects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +47,16 @@
 		92EB3AB7273C2B8B00DAD73A /* OnboardingServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingServiceTests.swift; sourceTree = "<group>"; };
 		92EB3AB9273C2B8B00DAD73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92EB3AEE273D57EF00DAD73A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		92EB3B1A273D7E0700DAD73A /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		92EB3B20273D7E5200DAD73A /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		92EB3B24273D7E8500DAD73A /* QueryString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryString.swift; sourceTree = "<group>"; };
+		92EB3B28273D7EB900DAD73A /* ServiceClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceClient.swift; sourceTree = "<group>"; };
+		92EB3B2C273D8DD500DAD73A /* EnumConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumConstants.swift; sourceTree = "<group>"; };
+		92EB3B31273D901D00DAD73A /* OnboardingDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingDelegate.swift; sourceTree = "<group>"; };
+		92EB3B39273D907300DAD73A /* Service+Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Service+Login.swift"; sourceTree = "<group>"; };
+		92EB3B57273D9B2400DAD73A /* Service+Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Service+Register.swift"; sourceTree = "<group>"; };
+		92EB3B73273DA44D00DAD73A /* Service+RefreshToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Service+RefreshToken.swift"; sourceTree = "<group>"; };
+		92EB3B7A273DA65600DAD73A /* Service+Projects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Service+Projects.swift"; sourceTree = "<group>"; };
 		C35A550ABB04EDBD2D0F4C96 /* Pods_OnboardingService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnboardingService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6CB9AE73F998AB21FAF5A69 /* Pods_OnboardingService_OnboardingServiceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnboardingService_OnboardingServiceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -105,6 +125,8 @@
 		92EB3AAB273C2B8B00DAD73A /* OnboardingService */ = {
 			isa = PBXGroup;
 			children = (
+				92EB3B30273D900700DAD73A /* Delegate */,
+				92EB3B19273D7DF300DAD73A /* Util */,
 				92EB3AED273D57DC00DAD73A /* Service */,
 				92EB3AAC273C2B8B00DAD73A /* OnboardingService.h */,
 				92EB3AAD273C2B8B00DAD73A /* Info.plist */,
@@ -124,9 +146,73 @@
 		92EB3AED273D57DC00DAD73A /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				92EB3B37273D904D00DAD73A /* Extensions */,
 				92EB3AEE273D57EF00DAD73A /* Service.swift */,
+				92EB3B2C273D8DD500DAD73A /* EnumConstants.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		92EB3B19273D7DF300DAD73A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				92EB3B1A273D7E0700DAD73A /* ServiceError.swift */,
+				92EB3B20273D7E5200DAD73A /* Connectivity.swift */,
+				92EB3B24273D7E8500DAD73A /* QueryString.swift */,
+				92EB3B28273D7EB900DAD73A /* ServiceClient.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		92EB3B30273D900700DAD73A /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				92EB3B31273D901D00DAD73A /* OnboardingDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		92EB3B37273D904D00DAD73A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				92EB3B79273DA64200DAD73A /* Projects */,
+				92EB3B78273DA61400DAD73A /* RefreshToken */,
+				92EB3B77273DA60B00DAD73A /* Register */,
+				92EB3B38273D906300DAD73A /* Login */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		92EB3B38273D906300DAD73A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				92EB3B39273D907300DAD73A /* Service+Login.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		92EB3B77273DA60B00DAD73A /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				92EB3B57273D9B2400DAD73A /* Service+Register.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		92EB3B78273DA61400DAD73A /* RefreshToken */ = {
+			isa = PBXGroup;
+			children = (
+				92EB3B73273DA44D00DAD73A /* Service+RefreshToken.swift */,
+			);
+			path = RefreshToken;
+			sourceTree = "<group>";
+		};
+		92EB3B79273DA64200DAD73A /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				92EB3B7A273DA65600DAD73A /* Service+Projects.swift */,
+			);
+			path = Projects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +256,7 @@
 				92EB3AAE273C2B8B00DAD73A /* Sources */,
 				92EB3AAF273C2B8B00DAD73A /* Frameworks */,
 				92EB3AB0273C2B8B00DAD73A /* Resources */,
+				A399B88818407F37B07477B1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +345,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A399B88818407F37B07477B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnboardingService-OnboardingServiceTests/Pods-OnboardingService-OnboardingServiceTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnboardingService-OnboardingServiceTests/Pods-OnboardingService-OnboardingServiceTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OnboardingService-OnboardingServiceTests/Pods-OnboardingService-OnboardingServiceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B59319C746C0320364625989 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -287,7 +391,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92EB3B7B273DA65600DAD73A /* Service+Projects.swift in Sources */,
+				92EB3B58273D9B2400DAD73A /* Service+Register.swift in Sources */,
+				92EB3B2D273D8DD500DAD73A /* EnumConstants.swift in Sources */,
+				92EB3B29273D7EB900DAD73A /* ServiceClient.swift in Sources */,
+				92EB3B1B273D7E0700DAD73A /* ServiceError.swift in Sources */,
+				92EB3B3A273D907300DAD73A /* Service+Login.swift in Sources */,
+				92EB3B74273DA44D00DAD73A /* Service+RefreshToken.swift in Sources */,
+				92EB3B25273D7E8500DAD73A /* QueryString.swift in Sources */,
+				92EB3B32273D901D00DAD73A /* OnboardingDelegate.swift in Sources */,
 				92EB3AEF273D57EF00DAD73A /* Service.swift in Sources */,
+				92EB3B21273D7E5200DAD73A /* Connectivity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
