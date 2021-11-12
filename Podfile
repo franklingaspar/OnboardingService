@@ -14,7 +14,7 @@ target 'OnboardingService' do
 
   # Pods for OnboardingService
   pod "Alamofire", "~> 5.4.4"
-  pod "OnboardingModels", "~> 1.0.13"
+  pod "OnboardingModels", "~> 1.0.14"
 
   target 'OnboardingServiceTests' do
     # Pods for testing
