@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (5.4.4)
-  - OnboardingModels (1.0.14)
+  - OnboardingModels (1.0.15)
 
 DEPENDENCIES:
   - Alamofire (~> 5.4.4)
@@ -14,7 +14,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
-  OnboardingModels: a354e80075a07460b78c8d88f013cdd710cde5ec
+  OnboardingModels: 218f8e7b88de2b975b69c8caae60e3bf806485d0
 
 PODFILE CHECKSUM: 57259b3bd9b01898b084edf1848e427eddca8f24
 
