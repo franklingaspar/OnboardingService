@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "OnboardingModels.h"
 
 FOUNDATION_EXPORT double OnboardingModelsVersionNumber;
 FOUNDATION_EXPORT const unsigned char OnboardingModelsVersionString[];

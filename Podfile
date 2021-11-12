@@ -1,6 +1,10 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '11.0'
 
+install! 'cocoapods',
+  :preserve_pod_file_structure => true
+
+
 source 'https://cdn.cocoapods.org/'
 source 'git@github.com:franklingaspar/Onboarding-Pods.git'
 
@@ -10,7 +14,7 @@ target 'OnboardingService' do
 
   # Pods for OnboardingService
   pod "Alamofire", "~> 5.4.4"
-  pod "OnboardingModels", "~> 1.0.12"
+  pod "OnboardingModels", "~> 1.0.13"
 
   target 'OnboardingServiceTests' do
     # Pods for testing
