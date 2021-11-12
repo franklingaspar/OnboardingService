@@ -15,6 +15,6 @@ Pod::Spec.new do |spec|
   spec.source_files     = "OnboardingService/**/*.{h,m,swift,xib,storyboard}"
  
   spec.dependency "Alamofire", "5.4.4"
-  # spec.dependency "OnboardingModels", "~> 1.0.15"
+  spec.dependency "OnboardingModels", "~> 1.0.15"
 
 end
