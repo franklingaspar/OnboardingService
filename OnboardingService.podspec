@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "OnboardingService"
-  spec.version      = "1.0.20"
+  spec.version      = "1.0.21"
   spec.summary      = "A short description of OnboardingService."
   spec.homepage     = "http://EXAMPLE/OnboardingService"
   spec.license      = "MIT"
@@ -15,7 +15,6 @@ Pod::Spec.new do |spec|
   spec.source_files     = "OnboardingService/**/*.{h,m,swift,xib,storyboard}"
  
   spec.dependency "Alamofire", "5.4.4"
-  spec.dependency "OnboardingColor", "~> 1.0.7"
-  spec.dependency "OnboardingAssets", "~> 1.0.3"
-
+  spec.dependency "OnboardingModels", "~> 1.1.0"
+  
 end

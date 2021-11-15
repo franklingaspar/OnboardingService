@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "OnboardingColor.h"
+#import "OnboardingModels.h"
 
-FOUNDATION_EXPORT double OnboardingColorVersionNumber;
-FOUNDATION_EXPORT const unsigned char OnboardingColorVersionString[];
+FOUNDATION_EXPORT double OnboardingModelsVersionNumber;
+FOUNDATION_EXPORT const unsigned char OnboardingModelsVersionString[];
 

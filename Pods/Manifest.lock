@@ -1,25 +1,21 @@
 PODS:
   - Alamofire (5.4.4)
-  - OnboardingAssets (1.0.3)
-  - OnboardingColor (1.0.7)
+  - OnboardingModels (1.1.0)
 
 DEPENDENCIES:
   - Alamofire (~> 5.4.4)
-  - OnboardingAssets (~> 1.0.3)
-  - OnboardingColor (~> 1.0.7)
+  - OnboardingModels (~> 1.1.0)
 
 SPEC REPOS:
   "git@github.com:franklingaspar/Onboarding-Pods.git":
-    - OnboardingAssets
-    - OnboardingColor
+    - OnboardingModels
   trunk:
     - Alamofire
 
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
-  OnboardingAssets: 2cc53b425e1c6a389c0b55d8f26f5cd4fec1e0c3
-  OnboardingColor: b95adb3c7dafd0548f6ac2953da85172f254fbaf
+  OnboardingModels: 28c2f2002f6c40e732b5dc162a206a9e96017515
 
-PODFILE CHECKSUM: 1953ba7f7c72bdb93667ae5c3f6e08f2fee01a87
+PODFILE CHECKSUM: b7c68b40e1df1fd42b4400ed10f0210b557633fc
 
 COCOAPODS: 1.10.2
