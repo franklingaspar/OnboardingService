@@ -7,6 +7,7 @@ install! 'cocoapods',
 
 source 'https://cdn.cocoapods.org/'
 source 'git@github.com:franklingaspar/Onboarding-Pods.git'
+source 'git@github.com:Hennrich-Your-Dev/YourDev-Pods.git'
 
 target 'OnboardingService' do
   # Comment the next line if you don't want to use dynamic frameworks

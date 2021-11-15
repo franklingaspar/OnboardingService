@@ -176,11 +176,23 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KingfisherWebP/KingfisherWebP.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/OnboardingModels/OnboardingModels.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YDB2WColors/YDB2WColors.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YDB2WModels/YDB2WModels.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YDExtensions/YDExtensions.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KingfisherWebP/KingfisherWebP.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/OnboardingModels/OnboardingModels.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YDB2WColors/YDB2WColors.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YDB2WModels/YDB2WModels.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YDExtensions/YDExtensions.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

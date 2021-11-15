@@ -1,3 +1,9 @@
 ${PODS_ROOT}/Target Support Files/Pods-OnboardingService-OnboardingServiceTests/Pods-OnboardingService-OnboardingServiceTests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/KingfisherWebP/KingfisherWebP.framework
 ${BUILT_PRODUCTS_DIR}/OnboardingModels/OnboardingModels.framework
+${BUILT_PRODUCTS_DIR}/YDB2WColors/YDB2WColors.framework
+${BUILT_PRODUCTS_DIR}/YDB2WModels/YDB2WModels.framework
+${BUILT_PRODUCTS_DIR}/YDExtensions/YDExtensions.framework
+${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework

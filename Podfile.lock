@@ -1,21 +1,58 @@
 PODS:
   - Alamofire (5.4.4)
+  - Kingfisher (5.15.8):
+    - Kingfisher/Core (= 5.15.8)
+  - Kingfisher/Core (5.15.8)
+  - KingfisherWebP (1.0.0):
+    - Kingfisher (~> 5.8)
+    - libwebp (>= 0.5.0)
+  - libwebp (1.2.1):
+    - libwebp/demux (= 1.2.1)
+    - libwebp/mux (= 1.2.1)
+    - libwebp/webp (= 1.2.1)
+  - libwebp/demux (1.2.1):
+    - libwebp/webp
+  - libwebp/mux (1.2.1):
+    - libwebp/demux
+  - libwebp/webp (1.2.1)
   - OnboardingModels (1.0.15)
+  - YDB2WColors (1.6.4)
+  - YDB2WModels (1.6.2):
+    - YDB2WColors (~> 1.6.0)
+    - YDExtensions (~> 1.6.0)
+  - YDExtensions (1.6.2):
+    - Kingfisher (~> 5.0)
+    - KingfisherWebP (= 1.0.0)
+    - YDB2WColors (~> 1.6.0)
 
 DEPENDENCIES:
   - Alamofire (~> 5.4.4)
   - OnboardingModels (~> 1.0.15)
+  - YDB2WModels (~> 1.6.0)
 
 SPEC REPOS:
   "git@github.com:franklingaspar/Onboarding-Pods.git":
     - OnboardingModels
+  "git@github.com:Hennrich-Your-Dev/YourDev-Pods.git":
+    - YDB2WColors
+    - YDB2WModels
+    - YDExtensions
   trunk:
     - Alamofire
+    - Kingfisher
+    - KingfisherWebP
+    - libwebp
 
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
+  KingfisherWebP: b1ed1dbc5e52547c5bf5f583dd5c46346f97320f
+  libwebp: 98a37e597e40bfdb4c911fc98f2c53d0b12d05fc
   OnboardingModels: 218f8e7b88de2b975b69c8caae60e3bf806485d0
+  YDB2WColors: d65cd1d7b675b18392c1b610315936be8ed00e70
+  YDB2WModels: 0d6067558f818400f1896acbad8a5481900593eb
+  YDExtensions: 8cffc2c846a7842c25d291c4792353d32e29e11b
 
-PODFILE CHECKSUM: 0f75c759d1e8efc02dd3c81d9730591a2bf96e78
+PODFILE CHECKSUM: 796e27a3b801bcdf6cffb550e8433bc0ec34809f
 
 COCOAPODS: 1.10.2
