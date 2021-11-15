@@ -7,7 +7,6 @@ install! 'cocoapods',
 
 source 'https://cdn.cocoapods.org/'
 source 'git@github.com:franklingaspar/Onboarding-Pods.git'
-source 'git@github.com:Hennrich-Your-Dev/YourDev-Pods.git'
 
 target 'OnboardingService' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -16,7 +15,6 @@ target 'OnboardingService' do
   # Pods for OnboardingService
   pod "Alamofire", "~> 5.4.4"
   pod "OnboardingModels", "~> 1.0.15"
-  pod "YDB2WModels", "~> 1.6.0"
 
   target 'OnboardingServiceTests' do
     # Pods for testing
