@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-OnboardingService-OnboardingServiceTests/Pods-OnboardingService-OnboardingServiceTests-resources.sh
+${PODS_ROOT}/OnboardingAssets/OnboardingAssets/Assets.xcassets
+${PODS_CONFIGURATION_BUILD_DIR}/OnboardingAssets/OnboardingAssets.bundle
