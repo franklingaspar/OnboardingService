@@ -1,0 +1,6 @@
+framework module OnboardingModelsTeste {
+  umbrella header "OnboardingModelsTeste-umbrella.h"
+
+  export *
+  module * { export * }
+}
