@@ -1,14 +1,14 @@
-////
-////  OnboardingDelegate.swift
-////  OnboardingService
-////
-////  Created by magna on 11/11/21.
-////
 //
-//import Foundation
+//  OnboardingDelegate.swift
+//  OnboardingService
 //
-//public protocol OnboardingDelegate:
-//    OnboardingServiceLoginDelegate,
-//    OnboardingServiceRegisterDelegate,
-//    OnboardingServiceRefreshTokenDelegate,
-//    OnboardingServiceProjectsDelegate{ }
+//  Created by magna on 11/11/21.
+//
+
+import Foundation
+
+public protocol OnboardingDelegate:
+    OnboardingServiceLoginDelegate,
+    OnboardingServiceRegisterDelegate,
+    OnboardingServiceRefreshTokenDelegate,
+    OnboardingServiceProjectsDelegate{ }
