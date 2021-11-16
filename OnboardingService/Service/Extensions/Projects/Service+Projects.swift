@@ -23,7 +23,7 @@ public extension Service {
     ) {
         
         let headersDic: [String: String] = [
-              "Access-Token": accessToken,
+              "Authorization": accessToken,
               "Content-Type": "application/json"
             ]
         let headers = HTTPHeaders(headersDic)
