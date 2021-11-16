@@ -32,7 +32,7 @@ public extension Service {
           guard let self = self else { return }
 
           self.service.request(
-            withUrl: self.login,
+            withUrl: Constants.baseUrl.rawValue + self.projects,
             withMethod: .get,
             withHeaders: headers,
             andParameters: nil

@@ -18,13 +18,7 @@ public class Service {
     let projects = Constants.projects.rawValue
 
 
-    // MARK: Computed variables
-    var brandURLName: String {
-    return Constants.baseUrl.rawValue
-    
-    }
-    
-    init() {
+   public init() {
         self.service = OnboardingServiceClient()
     }
 
