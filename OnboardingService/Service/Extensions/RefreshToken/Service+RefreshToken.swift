@@ -29,7 +29,7 @@ public extension Service {
           guard let self = self else { return }
 
           self.service.request(
-            withUrl: Constants.baseUrl.rawValue + self.login,
+            withUrl: Constants.baseUrl.rawValue + self.refreshToken,
             withMethod: .post,
             andParameters: parameters
           ) { (response: Swift.Result<TokenResponse, OnboardingServiceError>) in

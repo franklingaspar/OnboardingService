@@ -97,11 +97,11 @@ extension OnboardingServiceClient: OnboardingServiceClientDelegate {
       return onCompletion(.failure(OnboardingServiceError.cantCreateUrl))
     }
 
-    httpRequest.request(urlRequestConvirtable).validate().responseJSON { response in
+    httpRequest.request(urlRequestConvirtable).validate().responseJSON(emptyResponseCodes: [200, 201, 203, 204]) { response in
         switch response.result {
         case .success:
           guard let data = response.data else {
-            return onCompletion(.failure(OnboardingServiceError.badRequest))
+            return onCompletion(.success(response.data as! T))
           }
 
           do {

@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "OnboardingService"
-  spec.version      = "1.1.2"
+  spec.version      = "1.1.3"
   spec.summary      = "A short description of OnboardingService."
   spec.homepage     = "http://EXAMPLE/OnboardingService"
   spec.license      = "MIT"
