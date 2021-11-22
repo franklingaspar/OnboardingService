@@ -27,6 +27,12 @@ public extension Service {
               "Content-Type": "application/json"
             ]
         let headers = HTTPHeaders(headersDic)
+        
+        
+        let parameters: [String: Any] = [
+            "page": 1,
+            "perPage": 8
+        ]
 
         DispatchQueue.global().async { [weak self] in
           guard let self = self else { return }
@@ -35,7 +41,7 @@ public extension Service {
             withUrl: Constants.baseUrl.rawValue + self.projects,
             withMethod: .get,
             withHeaders: headers,
-            andParameters: nil
+            andParameters: parameters
           ) { (response: Swift.Result<ProjectsResponse, OnboardingServiceError>) in
             completion(response)
           }
